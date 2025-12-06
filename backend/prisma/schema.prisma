@@ -1,6 +1,7 @@
 // Basic Prisma schema for local development (PostgreSQL)
 datasource db {
   provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 generator client {
