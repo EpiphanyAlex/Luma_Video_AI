@@ -25,3 +25,7 @@ dist-ssr
 
 # environment variables
 .env
+
+# turbo
+.turbo
+!/pnpm-lock.yaml

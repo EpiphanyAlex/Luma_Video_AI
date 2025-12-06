@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "lint": "eslint './**/*.{ts,tsx,js,jsx}' --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write '**/*.{ts,tsx,js,jsx,json,md}'",
     "preview": "vite preview"
   },
   "dependencies": {

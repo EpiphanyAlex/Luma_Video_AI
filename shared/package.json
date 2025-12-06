@@ -12,6 +12,10 @@
       "import": "./index.js"
     }
   },
+  "scripts": {
+    "lint": "eslint './**/*.{ts,tsx,js,jsx}' --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write '**/*.{ts,tsx,js,jsx,json,md}'"
+  },
   "dependencies": {
     "zod": "^4.1.13"
   }
