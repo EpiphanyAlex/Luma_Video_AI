@@ -1,7 +1,7 @@
 import { AppBar, Toolbar, Box, Typography, Button, Stack } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import UserMenu from './UserMenu';
-import { useAuth } from '../hooks/useAuth';
+import UserMenu from '../../components/UserMenu';
+import { useAuth } from '../../hooks/useAuth';
 
 export default function Header() {
   const navigate = useNavigate();
